@@ -1,0 +1,186 @@
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+
+body {
+    
+
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+h1,h2,h3,nav{
+    font-family: 'Lobster', cursive;
+
+}
+
+
+body{
+//background-image: url(../img/medi.jpg);
+}
+.container{
+
+	
+margin:-1.875em -0.625em 0 -0.625em;
+background-color:lightblue;
+height:6.25em;
+width:100%;
+//overflow:hidden;
+//position:fixed;
+left:0;
+padding:5px 1px 1px 20px;
+
+margin-bottom: 0.625em;
+}
+
+
+
+
+
+nav{
+
+	text-align: center;
+	padding:10px 0;
+	margin:20px 0 0;
+
+}
+nav ul{
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+nav li {
+
+	
+	
+	text-decoration: none;
+
+}
+
+
+nav a {
+
+	font-weight: bold;
+	
+}
+nav a , nav a:visited{
+
+	color:black;
+}
+nav a .selected,nav a:hover{
+
+	color:red;
+}
+body{
+
+	background-color: white;
+	color:black;
+}
+
+
+
+
+
+
+
+/***********************************
+ HOME-PAGE MAIN HEADER 
+
+**********************************/
+h1{
+font-size: 1.5em; 
+margin-left: 2.0em;
+
+margin-top:20px;
+margin-bottom: 0.1125em;
+}
+
+.logo{
+
+height: 2.5em;
+margin-top: -1.5em;
+margin-left: -0.625em;
+
+}
+
+
+
+body{
+
+	//display: flex;
+	//flex-direction: column;
+	//min-height: 100vh;
+
+}
+
+.primary{
+
+	//flex-grow: 1;
+}
+
+
+/*********************************
+FOOTER
+*********************************/
+
+.main-footer{
+display:flex;
+width:100%;
+justify-content:space-around;
+
+background-color:dodgerblue;
+padding-top: 1.875em;
+
+padding-right:20px;
+padding-left:-10px;
+margin-bottom:-10px;
+margin-left:-11px;
+}
+
+.twitter-logo{
+margin-left: 18.75em;
+height: 3.125em;
+}
+
+.facebook-logo{
+margin-right: 1.25em;
+height: 3.125em;
+}
+
+.login{
+
+}
+
+
+
+
+
+.loginform{
+padding:5px 50px 5px 0 ;
+margin-bottom:20px;
+}
+
+.loginbutton{
+background:aqua;
+margin-left:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

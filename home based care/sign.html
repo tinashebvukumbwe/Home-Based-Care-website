@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		<title>Data Pond | Database</title>
+        <meta charset="utf-8">
+         <link href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans+Condensed:300" rel="stylesheet"> 
+		<link href="css/style.css" rel="stylesheet">
+        <link href="flexbox/flexbox.css" rel="stylesheet">
+        <link href="normalize/normalize.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+
+	</head>
+
+
+<body>
+<header>
+<div class="container">
+<h1>Data Pond</h1>
+
+<img src="img/red.png" alt="data-pond-logo" class="logo">
+
+
+
+<div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">
+<div class="div"></div>
+<div class="div"></div>
+<div class="div"></div>
+</button>
+  <div id="myDropdown" class="dropdown-content">
+
+<nav>
+	<ul class="ul">
+	  <a href="index.html"><li class="li">Home</li></a>
+	  <a href="package.html"><li class="li">Packages</li></a>
+      <a href="about.html"><li class="li">About</li></a>
+      <a href="contacts.html"><li class="li">Contacts</li></a>
+      <a href="sign.html"><li class="li">Sign Up</li></a>
+   </ul>
+</nav>
+  </div>
+</div>
+
+</div>
+</header>
+
+
+
+<nav >
+	<ul class="ll">
+	  <a href="index.html"><li class="li">Home</li></a>
+	  <a href="package.html"><li class="li">Packages</li></a>
+      <a href="about.html"><li class="li">About</li></a>
+      <a href="contacts.html"><li class="li">Contacts</li></a>
+      <a href="sign.html"><li class="li">Sign Up</li></a>
+   </ul>
+</nav>
+  
+
+
+
+<section>
+	<p>
+		<!--For you to start enjoying the full benefits of data pond you need to sign up and become a part of our big family</p>-->
+</section>
+
+<section class="snf">
+<div class="secondary">
+
+
+ <form action="form.html" method="post" class="signup-form">
+  <h1 class="h1">Sign Up</h1>
+
+   <fieldset>
+        
+        <legend>Personal Info</legend>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="first_name" class="label"><br>
+
+        <label for="surname">Surname:</label><br>
+        <input type="text" id="surname" name="user_surname" class="label"><br>
+
+        <label for="dob" >Date Of Birth:</label>
+        
+        <input type="text" id="dob" name="user_age" class="label" placeholder="dd//mm//yy"><br>
+
+        <label for="ec">Package:</label><br>
+        <input type="text" id="ec" name="package" class="label"><br>
+
+       <label for="male">
+              <input type="radio" id="male" name="user_sex" value="male" class="me" >
+              Male
+          </label>
+
+        <label for="female">
+              <input type="radio" id="female" name="user_sex" value="female" >
+              Female
+      </label><br>
+
+         <label for="user">Username:</label><br>
+        <input type="text" id="user" name="user_name" class="label"><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="user_password" class="label"><br>
+    
+    <button type="submit" class="btn">SUBMIT</button>
+    </fieldset>
+</form>
+</div>
+</section>
+ <form action="form.html" method="post" class="login">
+
+      
+        <label for="user_name">Username:</label><br>
+        <input type="text" id="username" name="user_name" class="loginform"><br>
+
+        <legend class="legend">
+            <label for="password">Password:</label><br>
+        <input type="password" id="password" name="user_password" class="loginform"><br>
+
+
+        
+    <button type="submit" class="loginbutton">Login</button>
+    </legend>
+</form>
+
+
+
+
+
+<footer class="main-footer">
+  <p>&copy2017 Data Pond.All right reserved</p>
+  <img  src="img/twitter.png" alt="twitter icon" class="twitter-logo">
+  <img  src="img/facebook.png" alt="facebook icon" class="facebook-logo">
+</footer>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+
+</body>
+
+</html>

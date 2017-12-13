@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		<title>Data Pond | Database</title>
+        <meta charset="utf-8">
+ <link href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans+Condensed:300" rel="stylesheet"> 
+		<link href="css/style.css" rel="stylesheet">
+        <link href="flexbox/flexbox.css" rel="stylesheet">
+        <link href="normalize/normalize.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+
+	</head>
+
+
+<body>
+
+
+<header>
+<div class="container">
+<h1>Data Pond</h1>
+<img src="img/red.png" alt="data-pond-logo" class="logo">
+
+
+
+
+<div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">
+<div class="div"></div>
+<div class="div"></div>
+<div class="div"></div>
+
+</button>
+  <div id="myDropdown" class="dropdown-content">
+
+<nav>
+	<ul class="ul">
+	  <a href="index.html"><li class="li">Home</li></a>
+	  <a href="package.html"><li class="li">Packages</li></a>
+      <a href="about.html"><li class="li">About</li></a>
+      <a href="contacts.html"><li class="li">Contacts</li></a>
+      <a href="sign.html"><li class="li">Sign Up</li></a>
+   </ul>
+</nav>
+  </div>
+</div>
+
+</div>
+</header>
+
+
+
+<nav >
+	<ul class="ll">
+	  <a href="index.html"><li class="li">Home</li></a>
+	  <a href="package.html"><li class="li">Packages</li></a>
+      <a href="about.html"><li class="li">About</li></a>
+      <a href="contacts.html"><li class="li">Contacts</li></a>
+      <a href="sign.html"><li class="li">Sign Up</li></a>
+   </ul>
+</nav>
+
+
+<section class="main-col">
+
+<h1 id="h1">Welcome</h1>
+<p class="motto">
+A Personal Relatonship with Medical Excellence
+</p>
+
+<div>
+<div class="col">
+<h2>Our Story</h2>
+<p> After a rapid rise in dificulty to access medical care, resulting in loss of time, life and money, Data Pond was established inorder to solve this crisis. At first it target people in the city of Vainona but due the success it has expanded and become a force to recogne not just in Zimbabwe but in Southern Africa as a whole. To date many people are still <a href="sign.html">signing up</a>.You can also <a href="contact.html">contact us</a>
+<ul>
+<li class="phone nums"><a href="tel:0772 000 001">0772 000 001</a></li>
+<li class="mail nums"><a href="mailto:datap@gmail.com">datap@gmail.com</a></li>
+<li class="twitter nums"><a href="http://twitter.com/@datap">@datap</a></li>
+<li class="facebook nums"><a href="http://facebook.com/datapond">datapond</a></li>
+</ul>
+</p>
+</div>
+<div class="col">
+ <h2>Partners</h2>
+<p>​Partnering for Excellence<p>
+<p>Data Pond is health system that is fast growing and spreading through the region hence we collaborate with key high profile healthcare institutions, clinics and hospitals in Zimbabwe and Southern Africa to ensure we are able to deliver the highest quality care to our patients and the wider community.</p>
+
+<p>
+our Partners:
+<h2>Medical Partners</h2> 
+<ul>
+<li>Harare Paediatric Clinic</li>
+<li>City Main Hospital</li>
+<li>Pretoria Medical University (South Africa)</li>
+<li>Windhoek Main Hospital (Namibia)</li>
+<li>Lusaka Male Clinic (Zambia)</li>
+<li>Southern Africa Womens Hospital </li>
+</ul>
+</p>
+
+<h2>Financial Partners</h2>
+<ul>
+<li>Southern Africa Central Bank</li>
+<li>Royal Bank of Africa</li>
+<li>City Main Bank</li>
+</ul>
+<h2>Other Partners</h2>
+<ul>
+<li>Greater Meds Pharmacy</li>
+<li>Seattle Hospital</li>
+<li>City Radio 83.4fm (Official broadcasting Partner) </li>
+<li>Daily Mail</li>
+</ul>
+</div>
+
+<div class="col">
+<h2>Medical Team</h2>
+Dr. Owen Hunt (Chief of Surgery, Trauma Surgery )<br>
+Dr. Derek Shepherd (Head of Neurosurgery ) <br>
+Dr. Richard Webber (Dentist) <br>
+Dr. Mark Sloan (Head of Plastic Surgery, ENT Surgeon)<br>  
+Dr. Miranda Bailey (General Surgery) <br>
+Dr. Arizona Robbins (Paediatric Surgery) 
+
+<h2>Nursing Staff</h2>
+Dr. Meredith Grey (Fifth Year Resident)<br>
+Dr. Cristina Yang (Fifth Year Resident)<br>
+Dr. Alex Karev (Fifth Year Resident)<br>
+Dr. April Kepner (Fifth Year Resident)<br>
+Dr. Jackson Avery (Fifth Year Resident)
+</div>
+</div>
+</section>
+  
+<footer class="main-footer">
+  <p>&copy2017 Data Pond.All right reserved</p>
+  <img  src="img/twitter.png" alt="twitter icon" class="twitter-logo">
+  <img  src="img/facebook.png" alt="facebook icon" class="facebook-logo">
+ <img  src="img/mail.png" alt="mail icon" class="mail-logo">
+  <img  src="img/phone.png" alt="phone icon" class="phone-logo">
+</footer>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+</body>
+</html>
